@@ -4,4 +4,4 @@ This is a full stack dApp for showing blockchain functions. In this tutorial pro
 
 ## Preparation 
 
-Enter into Alchemy Website and register your account,once you've created an Alchemy account, you can genarate an API key by creating a app project. Nagative to your website console page, click on `CREATE APP` buttion to create application. After 
+Enter into Alchemy Website and register your account,once you've created an Alchemy account, you can genarate an API key by creating a app project. Nagative to your website console page, click on `CREATE APP` buttion to create application. 
