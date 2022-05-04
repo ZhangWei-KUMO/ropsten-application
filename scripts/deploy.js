@@ -1,12 +1,13 @@
 const hre = require("hardhat");
 
 async function main() {
-  const Greeter = await hre.ethers.getContractFactory("First");
-  const greeter = await Greeter.deploy();
+  const Hai = await hre.ethers.getContractFactory("Hai");
+  // 部署本身就是初始化
+  const haixin = await Hai.deploy(100);
 
-  await greeter.deployed();
+  await haixin.deployed();
 
-  console.log("Greeter deployed to:", greeter.address);
+  console.log("Greeter deployed to:", haixin.address);
 }
 main().catch((error) => {
   console.error(error);
